@@ -1,3 +1,104 @@
 /*PAUTAS
 Nombrar las classes espesificamente
 */
+body {
+    background-color: #eff1f5;
+}
+
+.section1 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.gradient {
+    background: rgb(38, 0, 255);
+    background: linear-gradient(
+        90deg,
+        rgba(38, 0, 255, 1) 35%,
+        rgba(149, 0, 255, 1) 100%
+    );
+}
+
+#verde {
+    background-color: rgb(62, 172, 135);
+    color: white;
+}
+
+.opinions-profile-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 90px;
+}
+.stories-img {
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+}
+i {
+    scale: 0.8;
+    transition: 0.1s;
+    transform: rotate(0deg);
+    margin-left: 10px;
+}
+.show > i {
+    transition: 0.1s;
+    transform: rotate(90deg);
+}
+
+#navbar-default {
+    transition: 500ms ease;
+    background: transparent;
+}
+#navbar-default.scrolled {
+    background: #000;
+}
+.text-decoration-links {
+    text-decoration: none;
+}
+.text-decoration-links:hover {
+    text-decoration: underline;
+}
+
+.ls-none {
+    list-style: none;
+}
+
+.landing-pages-dropdown {
+    width: 700px;
+    margin-left: -450px;
+    top: 50px;
+    padding: 0px;
+}
+.documentation-dropdown {
+    width: 350px;
+    margin-left: -150px;
+    top: 50px;
+    padding: 0px;
+}
+.icon-documentation {
+    width: 40px;
+    height: 40px;
+}
+
+#image-landing {
+    background-color: rgba(61, 61, 255, 0.685);
+    background-image: url(img/bg-dropdown-xl.jpg);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+}
+
+:root {
+    --bg-dark: #282c34;
+    --color-gris: rgb(200, 200, 200);
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background: url('../img/curveWhite.svg');
+}
