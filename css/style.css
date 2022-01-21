@@ -1,9 +1,39 @@
 /*PAUTAS
 Nombrar las classes espesificamente
 */
+
+/*ADRIAN*/
+
 body {
     background-color: #f2f6fc;
 }
+
+.ls-none {
+    text-decoration: none;
+    list-style: none;
+}
+.text-decoration-links {
+    text-decoration: none;
+}
+.text-decoration-links:hover {
+    text-decoration: underline;
+    text-decoration-color: currentcolor;
+}
+.check-circle-check {
+    font-size: 14px;
+}
+.customized-secction-color {
+    background-color: #363d47;
+}
+.premium-badge-color {
+    background-color: #e4ddf7;
+    color: #6900c7;
+}
+.zindex-panel-central {
+    z-index: 2;
+}
+
+/*CARLOS*/
 
 .section1 {
     padding-top: 10rem;
