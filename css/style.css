@@ -60,6 +60,10 @@ header::before {
     background: url("../img/curveWhite.svg");
 }
 
+.text-gray {
+    color: var(--color-gris);
+}
+
 #verde {
     background-color: rgb(62, 172, 135);
     color: white;
@@ -81,6 +85,8 @@ i {
     transform: rotate(0deg);
     margin-left: 10px;
 }
+/* .show {background-color: var(--bg-dark);} */
+
 .show > i {
     transition: 0.1s;
     transform: rotate(90deg);
@@ -91,7 +97,7 @@ i {
     background: transparent;
 }
 #navbar-default.scrolled {
-    background: rgb(34, 34, 50);
+    background: var(--bg-dark); /*rgb(34, 34, 50)*/
 }
 .text-decoration-links {
     text-decoration: none;
@@ -135,7 +141,7 @@ i {
 #footer-cards-row {
     position: relative;
     z-index: 2;
-    transform: translateY(7rem);
+    transform: translateY(3rem);
 }
 
 .animate-up {
@@ -161,6 +167,9 @@ h5.color-purple {
 }
 .font-md {
     font-size: 1.1rem;
+}
+.font-bolder {
+    font-weight: 600;
 }
 
 .svg-icon-card {
