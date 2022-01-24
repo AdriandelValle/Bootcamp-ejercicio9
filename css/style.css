@@ -91,7 +91,7 @@ i {
     background: transparent;
 }
 #navbar-default.scrolled {
-    background: #000;
+    background: rgb(34, 34, 50);
 }
 .text-decoration-links {
     text-decoration: none;
